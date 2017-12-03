@@ -17,7 +17,7 @@ class Song
   end
 
   def self.create
-    return self.Song.save #or is it Song.save? or self.save
+    return self.save #or is it Song.save? or self.save
   end
 
   def self.new_by_name(song)
