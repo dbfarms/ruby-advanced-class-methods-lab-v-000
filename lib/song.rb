@@ -16,20 +16,12 @@ class Song
     @artist = artist
   end
 
-  def self.create
-    return self.save #or is it Song.save?
+  def self.create(song)
+    return song.save #or is it Song.save? or self.save
   end
 
   def self.new_by_name(song)
-
-
-=begin
-    @@all.each do |t|
-      if t.name == song
-        return t
-      end
-    end
-=end
+    song.
   end
 
   def self.create_by_name
