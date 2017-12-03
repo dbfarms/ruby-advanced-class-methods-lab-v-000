@@ -15,7 +15,7 @@ class Song
 # do I need to initialize??????????
   def initialize(name)
     @name = name
-    @artist = artist
+    @artist_name = artist_name
     name.save
   end
 
