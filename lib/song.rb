@@ -39,12 +39,11 @@ class Song
         return t
       end
     end
-    #return false
+    return false
   end
 
   def self.find_or_create_by_name(song)
     if !self.find_by_name(song)
-      binding.pry
         self.create_by_name(song)
     end
   end
