@@ -16,9 +16,11 @@ class Song
   def initialize(name)
     @name = name
     @artist = artist
+    name.save
   end
 
   def self.create
+
     song = Song.new(song)  #or is it Song.save? or self.save
     return song
 
