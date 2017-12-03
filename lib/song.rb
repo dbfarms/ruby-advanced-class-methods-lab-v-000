@@ -20,7 +20,6 @@ class Song
 
   def self.create
     song = Song.new(song)  #or is it Song.save? or self.save
-    binding.pry
     return song
 
   end
