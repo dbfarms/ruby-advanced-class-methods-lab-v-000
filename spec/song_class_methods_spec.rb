@@ -7,7 +7,6 @@ describe "Song Class Methods" do
       song = Song.create
       expect(song).to be_a(Song)
       expect(Song.all).to include(song)
-      binding.pry
     end
   end
 
