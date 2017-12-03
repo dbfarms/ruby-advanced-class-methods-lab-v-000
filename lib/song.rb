@@ -17,7 +17,10 @@ class Song
   end
 
   def self.create
-    pry song = Song.new(song)  #or is it Song.save? or self.save
+    song = Song.new(song)  #or is it Song.save? or self.save
+    pry
+    return song
+
   end
 
   def self.new_by_name(song)
