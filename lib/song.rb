@@ -20,7 +20,6 @@ class Song
   end
 
   def self.create(song)
-
     song = Song.new(song)  #or is it Song.save? or self.save
     return song
 
