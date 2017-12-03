@@ -16,7 +16,7 @@ class Song
     @artist = artist
   end
 
-  def self.create(song)
+  def self.create
     return song.save #or is it Song.save? or self.save
   end
 
