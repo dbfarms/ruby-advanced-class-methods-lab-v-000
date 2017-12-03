@@ -16,7 +16,7 @@ class Song
   def initialize(name)
     @name = name
     @artist_name = artist_name
-    name.Song.save
+    self.save
   end
 
   def self.create
